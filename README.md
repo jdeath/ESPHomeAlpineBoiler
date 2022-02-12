@@ -61,7 +61,6 @@ uart:
   
 
 modbus:
-  # flow_control_pin: 5
   id: modbus1
 
 modbus_controller:
