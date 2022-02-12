@@ -41,7 +41,7 @@ Next for the RS485 to the Cat 5/6 Cable
 | B- | Pin 7 | Often this is the brown/white cable . Will be writed with brown cable |
 | G Labled with Chinese Character  | Pin 6 | Often this is green . Might be optional, but I did it |
 
-Now the big trick is if your cable is short (mine was) you need a 120 Ohm resitor between A+ and B-. I soldered it on the two wires, a few mm before the 485 Module. Without this, you will get reflrections and get error messaages in ESPHome. Once I did this, things worked perfectly.
+Now the big trick is if your cable is short (mine was) you need a 120 Ohm resitor between A+ and B-. I soldered it on the two wires, a few mm before the 485 Module. Without this, you will get reflrections and get error messaages in ESPHome and nothing worked. Once I did this, things worked perfectly.
 
 Now connect other side of CAT 5/6 cable to the boiler. The boiler controller has a MODBUS RS485 interface that is accessed through a standard RJ45 jack on the side of the boiler. You want the top jack labeled "Boiler to Boiler".
 
