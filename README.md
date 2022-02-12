@@ -24,7 +24,7 @@ Load ESPHome onto the Wemos. Do this first. Just load a standard firmware, so yo
 
 Solder the Components:
 
-You need to solder the Wemos to the RS485 Adapter and the RS485 Adapter to the CAT 5/6 Cable. 
+You need to solder the Wemos to the RS485 Adapter and the RS485 Adapter to the CAT 5/6 Cable and resister. 
 
 First for the Wemos to RS485:
 | Wemos | RS485 | Comment |
