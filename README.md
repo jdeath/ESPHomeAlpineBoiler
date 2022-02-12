@@ -9,7 +9,7 @@ Putting this togeather leveraged research from many people online, amazon commen
 1. https://mini-monitor-documentation.readthedocs.io/en/latest/hardware.html#parts-cv1-and-j1-burnham-alpine-boiler-interface
 
 Components Needed (Just a few bucks for all of this):
-1. TTL to RS485 Module 485 . https://www.amazon.com/gp/product/B07YZTGHGG Could use the more common 485Max, but this board is a little easier as does not need flow control.(but may need a resister)
+1. TTL to RS485 Module 485 . https://www.amazon.com/gp/product/B07YZTGHGG Could use the more common Max485, but this board is a little easier as does not need flow control.(but may need a resister)
 2. Wemos Mini D1. https://www.amazon.com/gp/product/B081PX9YFV . Could use any ESP module you like, but these are cheap
 3. Cat 5/6 Ethernet Cable (which you will destroy)
 4. 120 Ohm Resitor. (I used a 100 Ohm and still worked) This was the trick, without this I was beating my head against the wall!
