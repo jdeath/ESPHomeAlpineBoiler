@@ -16,7 +16,7 @@ Components Needed (Just a few bucks for all of this):
 
 Prep the Boiler:
 
-You must set the “Boiler Address” to 1 in order to read data from the boiler. This is done on the “Adjust”, “Sequence Slave”, “Boiler Address” menu item available through the touch screen control on the boiler. The Factory default for this setting is “None”, so it must be changed in order for the monitoring system to work. If the boiler needs a password to access the "Adjust" menu is is 76
+You must set the “Boiler Address” to 1 in order to read data from the boiler. This is done on the “Adjust”, “Sequence Slave”, “Boiler Address” menu item available through the touch screen control on the boiler. The Factory default for this setting is “None”, so it must be changed in order for the monitoring system to work. The default password is 76 , if it asks you for one.
 
 Install ESPHome:
 
