@@ -117,7 +117,12 @@ sensor:
     accuracy_decimals: 1
     unit_of_measurement: "°F"
     filters:
-    - lambda: return x * 0.18 + 32.0;  
+    - lambda: |-
+        if (x > 32767 ) {
+           return (x - 65536.0) * 0.18 + 32.0;
+        } else {
+           return x * 0.18 + 32.0;
+        } 
 # Alpine 150 = BTU Heat Rating: 118000 Btu/h
 binary_sensor:
   - platform: modbus_controller
