@@ -45,7 +45,7 @@ Now the big trick is if your cable is short (mine was) you need a 120 Ohm resito
 
 Now connect other side of CAT 5/6 cable to the boiler. The boiler controller has a MODBUS RS485 interface that is accessed through a standard RJ45 jack on the side of the boiler. You want the top jack labeled "Boiler to Boiler".
 
-Now, you can go back into ESPHome and load the following YAML onto the WEMOS. These are the sensor's I am using. If you want more sensors, you can look at the code linked at the top of the page, to add more holding register sensors. I will update this code as I learn more. The temperature sensors will be wrong if the temp goes below OC. I need to figure out how to do the 2s compliment in an if statement in ESPHome. But this should give you the most important sensors. There are two ways to determine the firing rate. I used the method that worked for mine. I also scale the firing rate to Btu/h to match what is displayed on the boiler display panel.
+Now, you can go back into ESPHome and load the following YAML onto the WEMOS. These are the sensor's I am using. If you want more sensors, you can look at the code linked at the top of the page, to add more holding register sensors. I will update this code as I learn more. But this should give you the most important sensors. There are two ways to determine the firing rate. I used the method that worked for mine. I also scale the firing rate to Btu/h to match what is displayed on the boiler display panel.
 ```
 esphome:
   name: boiler
